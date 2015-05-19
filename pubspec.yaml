@@ -1,0 +1,17 @@
+name: 'modal_update'
+version: 0.0.1
+description: Example app for updating a modal window
+author: Doug Reese doug@reesesystems.com
+homepage: http://www.reesesystems.com
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: '>=0.10.0 <0.11.0'
+  logging: any
+  angular: ">=1.0.0 <2.0.0"
+  angular_ui:
+    git: 'https://github.com/akserg/angular.dart.ui.git'
+transformers:
+- angular:
+    html_files:
+    - lib/component/my_modal.html
